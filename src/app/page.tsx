@@ -8,7 +8,7 @@ export default function Home() {
             CTO, Software Engineer, and Entrepreneur
           </p>
           <p className="mt-2">
-            I am the CTO of the german EduTech Startup{" "}
+            I am the CTO of the German EduTech Startup{" "}
             <strong>
               <a href="https://www.schullv.de" target="_blank">
                 SchulLV
