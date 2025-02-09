@@ -23,7 +23,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center items-center">
           <Image
-            src="/lukas-circle.png"
+            src="/lukas-circle-min.png"
             alt="Picture of Lukas Kesch"
             width={350}
             height={350}
