@@ -1,13 +1,14 @@
+import Image from "next/image";
 export default function Home() {
   return (
     <article className="min-h-screen p-8">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center mt-8">
         <div>
           <h1 className="text-6xl font-bold">Lukas Kesch</h1>
           <p className="mt-2 text-xl italic">
             CTO, Software Engineer, and Entrepreneur
           </p>
-          <p className="mt-2">
+          <p className="mt-4">
             I am the CTO of the German EduTech Startup{" "}
             <strong>
               <a href="https://www.schullv.de" target="_blank">
@@ -20,8 +21,13 @@ export default function Home() {
             family.
           </p>
         </div>
-        <div>
-          {/* <img src="/schullv.png" alt="Picture of Lukas Kesch" /> */}
+        <div className="flex justify-center items-center">
+          <Image
+            src="/lukas-circle.png"
+            alt="Picture of Lukas Kesch"
+            width={350}
+            height={350}
+          />
         </div>
       </div>
 
@@ -66,10 +72,18 @@ export default function Home() {
             coding, exercise, ...) you want to keep track of.
           </p>
           <p className="mt-2">
-            I am developing this app to track my exercise, coding, and learning
-            habits. The Web App is built with Next.js, TypeScript, Tailwind CSS,
-            and MySQL. I am self-hosting the app on my own server with a
-            Cloudflare proxy in front.
+            I am developing this open source app to track my exercise, coding,
+            and learning habits. The Web App is built with Next.js, TypeScript,
+            Tailwind CSS, and MySQL. I am self-hosting the app on my own server
+            with a Cloudflare proxy in front. You can find it on my{" "}
+            <strong>
+              <a
+                href="https://github.com/lukaskesch/productivity-journal"
+                target="_blank">
+                GitHub
+              </a>
+            </strong>
+            .
           </p>
         </div>
         <div>
