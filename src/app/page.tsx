@@ -98,7 +98,12 @@ export default function Home() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <p className="mt-2">
-            I studied Computer Science at the Karlsruhe Institute of Technology
+            I studied Computer Science at the{" "}
+            <strong>
+              <a href="https://kit.edu/" target="_blank">
+                Karlsruhe Institute of Technology
+              </a>
+            </strong>{" "}
             (KIT) in Germany. I finished my Bachelor study with a GPA of 3.7. I
             focused on Algorithms, Software Engineering, and Linear Algebra.
           </p>
@@ -117,10 +122,18 @@ export default function Home() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <p className="mt-2">
-            I graduated from the Hans-Grüninger-Gymnasium (German high school)
-            with the highest GPA in my class of 4.0 (German: 1.1). I selected my
-            classes based on my deep interest in the STEM subjects: Computer
-            Science, Mathmatics, Physics, and Chemistry.
+            I graduated from the{" "}
+            <strong>
+              <a
+                href="https://www.hgg-markgroeningen.de/pages/hgg/index.php"
+                target="_blank">
+                Hans-Grüninger-Gymnasium
+              </a>
+            </strong>{" "}
+            (German high school) with the highest GPA in my class of 4.0
+            (German: 1.1). I selected my classes based on my deep interest in
+            the STEM subjects: Computer Science, Mathmatics, Physics, and
+            Chemistry.
           </p>
           <p className="mt-2">
             For my exeptional performance I got multiple awards and
@@ -128,10 +141,14 @@ export default function Home() {
             Deutschlandstipendium
           </p>
           <p className="mt-2">
-            I spent my Junior year as an Exchange Student in the USA at the
-            Jackboro High School. I finished the school year with a 4.0 GPA as
-            well and tried out practically all sports they offered: Football,
-            Cross Country, Powerlifting, Track & Field, and Baseball.
+            I spent my Junior year as an Exchange Student in the USA at the{" "}
+            <strong>
+              <a href="https://www.jacksboroisd.net/o/jhs" target="_blank">
+                Jackboro High School
+              </a>
+            </strong>
+            . I finished the school year with a 4.0 GPA as well and tried out
+            practically all sports they offered: Football, Cross Country,
           </p>
         </div>
         <div>
@@ -144,14 +161,25 @@ export default function Home() {
         <div>
           <p className="mt-2">
             Two years in a row I participated in the highest German Informatics
-            Competition: The Bundeswettbewerb Informatik (BWInf). I passed all
-            rounds and was one of the 23 finalists from over 2000 participants.
+            Competition: The{" "}
+            <strong>
+              <a href="https://bwinf.de/bundeswettbewerb/" target="_blank">
+                Bundeswettbewerb Informatik
+              </a>
+            </strong>
+            . I passed all rounds and was one of the 23 finalists from over 2000
+            participants.
           </p>
           <p className="mt-2">
             This victory qualified me to take part in the training for the
-            german national team at the International Olympiad in Informatics
-            (IOI). The training was intense and we practiced a lot of
-            algorithmic problems and programming exercises.
+            german national team at the{" "}
+            <strong>
+              <a href="https://ioinformatics.org/" target="_blank">
+                International Olympiad in Informatics
+              </a>
+            </strong>
+            . The training was intense and we practiced a lot of algorithmic
+            problems and programming exercises.
           </p>
         </div>
         <div>
