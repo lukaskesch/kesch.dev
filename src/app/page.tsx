@@ -92,6 +92,72 @@ export default function Home() {
       </div>
 
       {/* <h3 className="text-2xl font-bold mt-8">Youtube Tinder</h3> */}
+      {/* <h3 className="text-2xl font-bold mt-8">Daily Journal</h3> */}
+      {/* <h3 className="text-2xl font-bold mt-8">Homeserver</h3> */}
+      <h3 className="text-2xl font-bold mt-8">University</h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <p className="mt-2">
+            I studied Computer Science at the Karlsruhe Institute of Technology
+            (KIT) in Germany. I finished my Bachelor study with a GPA of 3.7. I
+            focused on Algorithms, Software Engineering, and Linear Algebra.
+          </p>
+          <p className="mt-2">
+            During my studies I was already working as a Software Engineer at
+            SchulLV part time and got my first experience working on a large
+            scale web application.
+          </p>
+        </div>
+        <div>
+          {/* <img src="/focusjournal.png" alt="Screenshot of the Focus Journal Webapp" /> */}
+        </div>
+      </div>
+
+      <h3 className="text-2xl font-bold mt-8">High School</h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <p className="mt-2">
+            I graduated from the Hans-Grüninger-Gymnasium (German high school)
+            with the highest GPA in my class of 4.0 (German: 1.1). I selected my
+            classes based on my deep interest in the STEM subjects: Computer
+            Science, Mathmatics, Physics, and Chemistry.
+          </p>
+          <p className="mt-2">
+            For my exeptional performance I got multiple awards and
+            scholarships. To name a few: Ferry-Porsche Preis, Physik-Preis,
+            Deutschlandstipendium
+          </p>
+          <p className="mt-2">
+            I spent my Junior year as an Exchange Student in the USA at the
+            Jackboro High School. I finished the school year with a 4.0 GPA as
+            well and tried out practically all sports they offered: Football,
+            Cross Country, Powerlifting, Track & Field, and Baseball.
+          </p>
+        </div>
+        <div>
+          {/* <img src="/focusjournal.png" alt="Screenshot of the Focus Journal Webapp" /> */}
+        </div>
+      </div>
+
+      <h3 className="text-2xl font-bold mt-8">Bundeswettbewerb Informatik</h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <p className="mt-2">
+            Two years in a row I participated in the highest German Informatics
+            Competition: The Bundeswettbewerb Informatik (BWInf). I passed all
+            rounds and was one of the 23 finalists from over 2000 participants.
+          </p>
+          <p className="mt-2">
+            This victory qualified me to take part in the training for the
+            german national team at the International Olympiad in Informatics
+            (IOI). The training was intense and we practiced a lot of
+            algorithmic problems and programming exercises.
+          </p>
+        </div>
+        <div>
+          {/* <img src="/focusjournal.png" alt="Screenshot of the Focus Journal Webapp" /> */}
+        </div>
+      </div>
     </article>
   );
 }
