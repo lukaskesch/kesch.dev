@@ -52,19 +52,10 @@ export default function RootLayout({
             <a href="/">
               <div className="text-2xl font-bold">Kesch.dev</div>
             </a>
-            <ul className="flex flex-row gap-4">
-              <li>
-                <a href="/projects">Projects</a>
-              </li>
-            </ul>
+             <ul className="flex flex-row items-center gap-4"></ul>
           </nav>
           <nav>
             <ul className="flex flex-row items-center gap-4">
-              <li>
-                <a href="https://focusjournal.io" target="_blank">
-                  Focus Journal
-                </a>
-              </li>
               <li>
                 <a href="https://github.com/lukaskesch" target="_blank">
                   GitHub
