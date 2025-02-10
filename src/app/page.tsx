@@ -6,7 +6,7 @@ export default function Home() {
         <div className="order-2 md:order-1">
           <h1 className="text-6xl font-bold">Lukas Kesch</h1>
           <p className="mt-2 text-xl italic">
-            CTO, Software Engineer, and Entrepreneur
+            CTO and Entrepreneur
           </p>
           <p className="mt-4">
             I am the CTO of the German EduTech Startup{" "}
