@@ -34,7 +34,7 @@ export default function Home() {
       <h2 className="text-3xl font-bold mt-16">My Endevors</h2>
       <h3 className="text-2xl font-bold mt-8">SchulLV</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div>
+        <div className="order-2 md:order-1">
           <p className="mt-2">
             <strong>
               <a href="https://www.schullv.de" target="_blank">
@@ -53,14 +53,14 @@ export default function Home() {
             Next.js, TypeScript, Spring Boot, MySQL, AWS, ...
           </p>
         </div>
-        <div>
+        <div className="flex justify-center items-center order-1 md:order-2">
           {/* <img src="/schullv.png" alt="Screenshot of the SchulLV online learning platform" /> */}
         </div>
       </div>
 
       <h3 className="text-2xl font-bold mt-8">Focus Journal</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div>
+        <div className="order-2 md:order-1">
           <p className="mt-2">
             <strong>
               <a href="https://focusjournal.io" target="_blank">
@@ -86,7 +86,7 @@ export default function Home() {
             .
           </p>
         </div>
-        <div>
+        <div className="flex justify-center items-center order-1 md:order-2">
           {/* <img src="/focusjournal.png" alt="Screenshot of the Focus Journal Webapp" /> */}
         </div>
       </div>
@@ -96,7 +96,7 @@ export default function Home() {
       {/* <h3 className="text-2xl font-bold mt-8">Homeserver</h3> */}
       <h3 className="text-2xl font-bold mt-8">University</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div>
+        <div className="order-2 md:order-1">
           <p className="mt-2">
             I studied Computer Science at the{" "}
             <strong>
@@ -113,14 +113,14 @@ export default function Home() {
             scale web application.
           </p>
         </div>
-        <div>
+        <div className="flex justify-center items-center order-1 md:order-2">
           {/* <img src="/focusjournal.png" alt="Screenshot of the Focus Journal Webapp" /> */}
         </div>
       </div>
 
       <h3 className="text-2xl font-bold mt-8">High School</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div>
+        <div className="order-2 md:order-1">
           <p className="mt-2">
             I graduated from the{" "}
             <strong>
@@ -149,14 +149,14 @@ export default function Home() {
             practically all sports they offered: Football, Cross Country,
           </p>
         </div>
-        <div>
+        <div className="flex justify-center items-center order-1 md:order-2">
           {/* <img src="/focusjournal.png" alt="Screenshot of the Focus Journal Webapp" /> */}
         </div>
       </div>
 
       <h3 className="text-2xl font-bold mt-8">Bundeswettbewerb Informatik</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div>
+        <div className="order-2 md:order-1">
           <p className="mt-2">
             Two years in a row I participated in the highest German Informatics
             Competition: The{" "}
@@ -180,7 +180,7 @@ export default function Home() {
             problems and programming exercises.
           </p>
         </div>
-        <div>
+        <div className="flex justify-center items-center order-1 md:order-2">
           {/* <img src="/focusjournal.png" alt="Screenshot of the Focus Journal Webapp" /> */}
         </div>
       </div>
