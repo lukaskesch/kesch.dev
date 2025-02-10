@@ -5,9 +5,7 @@ export default function Home() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center mt-8">
         <div className="order-2 md:order-1">
           <h1 className="text-6xl font-bold">Lukas Kesch</h1>
-          <p className="mt-2 text-xl italic">
-            CTO and Entrepreneur
-          </p>
+          <p className="mt-2 text-xl italic">CTO and Entrepreneur</p>
           <p className="mt-4">
             I am the CTO of the German EduTech Startup{" "}
             <strong>
@@ -171,6 +169,7 @@ export default function Home() {
             </strong>
             . I learned a lot about the American culture and tried out
             practically all sports they offered: Football, Cross Country,
+            Powerlifting, Track & Field, and Baseball
           </p>
         </div>
         <div className="flex justify-center items-center order-1 md:order-2">
