@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <article className="min-h-screen p-8">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center mt-8">
-        <div>
+        <div className="order-2 md:order-1">
           <h1 className="text-6xl font-bold">Lukas Kesch</h1>
           <p className="mt-2 text-xl italic">
             CTO, Software Engineer, and Entrepreneur
@@ -21,7 +21,7 @@ export default function Home() {
             family.
           </p>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center order-1 md:order-2 mb-8 md:mt-0">
           <Image
             src="/lukas-circle-min.png"
             alt="Picture of Lukas Kesch"
