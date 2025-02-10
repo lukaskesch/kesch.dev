@@ -130,15 +130,13 @@ export default function Home() {
                 Hans-Grüninger-Gymnasium
               </a>
             </strong>{" "}
-            (German high school) with the highest GPA in my class of 4.0
-            (German: 1.1). I selected my classes based on my deep interest in
-            the STEM subjects: Computer Science, Mathmatics, Physics, and
-            Chemistry.
+            (German high school) with the highest GPA in my class of 4.0. I
+            selected my classes based on my deep interest in the STEM subjects:
+            Computer Science, Mathmatics, Physics, and Chemistry.
           </p>
           <p className="mt-2">
-            For my exeptional performance I got multiple awards and
-            scholarships. To name a few: Ferry-Porsche Preis, Physik-Preis,
-            Deutschlandstipendium
+            I received multiple awards and scholarships: Ferry-Porsche Preis,
+            Physik-Preis, Deutschlandstipendium
           </p>
           <p className="mt-2">
             I spent my Junior year as an Exchange Student in the USA at the{" "}
@@ -147,7 +145,7 @@ export default function Home() {
                 Jackboro High School
               </a>
             </strong>
-            . I finished the school year with a 4.0 GPA as well and tried out
+            . I learned a lot about the American culture and tried out
             practically all sports they offered: Football, Cross Country,
           </p>
         </div>
