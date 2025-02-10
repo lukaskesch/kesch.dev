@@ -32,9 +32,9 @@ export default function Home() {
       </div>
 
       <h2 className="text-3xl font-bold mt-16">My Endevors</h2>
-      <h3 className="text-2xl font-bold mt-8">SchulLV</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="order-2 md:order-1">
+          <h3 className="text-2xl font-bold mt-8">SchulLV</h3>
           <p className="mt-2">
             <strong>
               <a href="https://www.schullv.de" target="_blank">
@@ -58,9 +58,9 @@ export default function Home() {
         </div>
       </div>
 
-      <h3 className="text-2xl font-bold mt-8">Focus Journal</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="order-2 md:order-1">
+          <h3 className="text-2xl font-bold mt-8">Focus Journal</h3>
           <p className="mt-2">
             <strong>
               <a href="https://focusjournal.io" target="_blank">
@@ -91,12 +91,36 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="order-2 md:order-1">
+          <h3 className="text-2xl font-bold mt-8">Ubuntu Server</h3>
+          <p className="mt-2">
+            All my personal projects run on an Ubuntu server in a datacenter in
+            Germany. In the time of AWS, it is a great way to stay grounded in
+            the basics.
+          </p>
+          <p className="mt-2">
+            I am running: Nginx as a reverse proxy with Certbot for my side
+            projects, MySQL as my go to database, Docker for my Next.js apps,
+            WireGuard as my VPN with AdGuard as my DNS Server, and some cron
+            scripts for backups, monitoring, and maintenance.
+          </p>
+          <p className="mt-2">
+            Maybe in the future I will set up a server on my own hardware in my
+            home or colocate it in a datacenter.
+          </p>
+        </div>
+        <div className="flex justify-center items-center order-1 md:order-2">
+          {/* <img src="/focusjournal.png" alt="Screenshot of the Focus Journal Webapp" /> */}
+        </div>
+      </div>
+
       {/* <h3 className="text-2xl font-bold mt-8">Youtube Tinder</h3> */}
       {/* <h3 className="text-2xl font-bold mt-8">Daily Journal</h3> */}
       {/* <h3 className="text-2xl font-bold mt-8">Homeserver</h3> */}
-      <h3 className="text-2xl font-bold mt-8">University</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="order-2 md:order-1">
+          <h3 className="text-2xl font-bold mt-8">University</h3>
           <p className="mt-2">
             I studied Computer Science at the{" "}
             <strong>
@@ -118,9 +142,9 @@ export default function Home() {
         </div>
       </div>
 
-      <h3 className="text-2xl font-bold mt-8">High School</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="order-2 md:order-1">
+          <h3 className="text-2xl font-bold mt-8">High School</h3>
           <p className="mt-2">
             I graduated from the{" "}
             <strong>
@@ -154,9 +178,11 @@ export default function Home() {
         </div>
       </div>
 
-      <h3 className="text-2xl font-bold mt-8">Bundeswettbewerb Informatik</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="order-2 md:order-1">
+          <h3 className="text-2xl font-bold mt-8">
+            Bundeswettbewerb Informatik
+          </h3>
           <p className="mt-2">
             Two years in a row I participated in the highest German Informatics
             Competition: The{" "}
