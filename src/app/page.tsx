@@ -62,11 +62,13 @@ export default function Home() {
         </div>
       </div>
 
-      <h2 className="text-3xl font-bold mt-16">My Endevors</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="order-2 md:order-1">
-          <h3 className="text-2xl font-bold mt-8">SchulLV</h3>
-          <p className="mt-2">
+      <h2 className="text-3xl font-bold mt-16">My Endeavors</h2>
+
+      <EndeavorsCard
+        title="SchulLV"
+        image="/schullv.png"
+        descriptionParagraphs={[
+          <>
             <strong>
               <a href="https://www.schullv.de" target="_blank">
                 SchulLV
@@ -77,22 +79,20 @@ export default function Home() {
             materials. We offer many subjects (Maths, German, English, Biology,
             ...) with original graduation exams for nearly all German states and
             digital schoolbooks on our online platform.
-          </p>
-          <p className="mt-2">
+          </>,
+          <>
             As CTO I am leading the development of the platform (website, mobile
             app, and backend) and the infrastructure. The tech stack includes
             Next.js, TypeScript, Spring Boot, MySQL, AWS, ...
-          </p>
-        </div>
-        <div className="flex justify-center items-center order-1 md:order-2">
-          {/* <img src="/schullv.png" alt="Screenshot of the SchulLV online learning platform" /> */}
-        </div>
-      </div>
+          </>,
+        ]}
+      />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="order-2 md:order-1">
-          <h3 className="text-2xl font-bold mt-8">Focus Journal</h3>
-          <p className="mt-2">
+      <EndeavorsCard
+        title="Focus Journal"
+        image="/schullv.png"
+        descriptionParagraphs={[
+          <>
             <strong>
               <a href="https://focusjournal.io" target="_blank">
                 FocusJournal.io
@@ -101,8 +101,8 @@ export default function Home() {
             is a journal app that lets you record and have an overview of your
             focus sessions. A focus session can be any activity (learning,
             coding, exercise, ...) you want to keep track of.
-          </p>
-          <p className="mt-2">
+          </>,
+          <>
             I am developing this open source app to track my exercise, coding,
             and learning habits. The Web App is built with Next.js, TypeScript,
             Tailwind CSS, and MySQL. I am self-hosting the app on my own server
@@ -115,44 +115,37 @@ export default function Home() {
               </a>
             </strong>
             .
-          </p>
-        </div>
-        <div className="flex justify-center items-center order-1 md:order-2">
-          {/* <img src="/focusjournal.png" alt="Screenshot of the Focus Journal Webapp" /> */}
-        </div>
-      </div>
+          </>,
+        ]}
+      />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="order-2 md:order-1">
-          <h3 className="text-2xl font-bold mt-8">Ubuntu Server</h3>
-          <p className="mt-2">
-            This site and all my other personal projects run on an Ubuntu server in a datacenter in
-            Germany. In the time of AWS, it is a great way to stay grounded in
-            the basics.
-          </p>
-          <p className="mt-2">
+      <EndeavorsCard
+        title="Ubuntu Server"
+        image="/schullv.png"
+        descriptionParagraphs={[
+          <>
+            This site and all my other personal projects run on an Ubuntu server
+            in a datacenter in Germany. In the time of AWS, it is a great way to
+            stay grounded in the basics.
+          </>,
+          <>
             I am running: Nginx as a reverse proxy with Certbot for my side
             projects, MySQL as my go to database, Docker for my Next.js apps,
             WireGuard as my VPN with AdGuard as my DNS Server, and some cron
             scripts for backups, monitoring, and maintenance.
-          </p>
-          <p className="mt-2">
+          </>,
+          <>
             Maybe in the future I will set up a server on my own hardware in my
             home or colocate it in a datacenter.
-          </p>
-        </div>
-        <div className="flex justify-center items-center order-1 md:order-2">
-          {/* <img src="/focusjournal.png" alt="Screenshot of the Focus Journal Webapp" /> */}
-        </div>
-      </div>
+          </>,
+        ]}
+      />
 
-      {/* <h3 className="text-2xl font-bold mt-8">Youtube Tinder</h3> */}
-      {/* <h3 className="text-2xl font-bold mt-8">Daily Journal</h3> */}
-      {/* <h3 className="text-2xl font-bold mt-8">Homeserver</h3> */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="order-2 md:order-1">
-          <h3 className="text-2xl font-bold mt-8">University</h3>
-          <p className="mt-2">
+      <EndeavorsCard
+        title="University"
+        image="/schullv.png"
+        descriptionParagraphs={[
+          <>
             I studied Computer Science at the{" "}
             <strong>
               <a href="https://kit.edu/" target="_blank">
@@ -161,22 +154,23 @@ export default function Home() {
             </strong>{" "}
             (KIT) in Germany. I finished my Bachelor study with a GPA of 3.7. I
             focused on Algorithms, Software Engineering, and Linear Algebra.
-          </p>
-          <p className="mt-2">
+          </>,
+          <>
             During my studies I was already working as a Software Engineer at
             SchulLV part time and got my first experience working on a large
             scale web application.
-          </p>
-        </div>
-        <div className="flex justify-center items-center order-1 md:order-2">
-          {/* <img src="/focusjournal.png" alt="Screenshot of the Focus Journal Webapp" /> */}
-        </div>
-      </div>
+          </>,
+        ]}
+      />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="order-2 md:order-1">
-          <h3 className="text-2xl font-bold mt-8">High School</h3>
-          <p className="mt-2">
+      {/* <h3 className="text-2xl font-bold mt-8">Youtube Tinder</h3> */}
+      {/* <h3 className="text-2xl font-bold mt-8">Daily Journal</h3> */}
+
+      <EndeavorsCard
+        title="High School"
+        image="/schullv.png"
+        descriptionParagraphs={[
+          <>
             I graduated from the{" "}
             <strong>
               <a
@@ -188,12 +182,12 @@ export default function Home() {
             (German high school) with the highest GPA in my class of 4.0. I
             selected my classes based on my deep interest in the STEM subjects:
             Computer Science, Mathmatics, Physics, and Chemistry.
-          </p>
-          <p className="mt-2">
+          </>,
+          <>
             I received multiple awards and scholarships: Ferry-Porsche Preis,
             Physik-Preis, Deutschlandstipendium
-          </p>
-          <p className="mt-2">
+          </>,
+          <>
             I spent my Junior year as an Exchange Student in the USA at the{" "}
             <strong>
               <a href="https://www.jacksboroisd.net/o/jhs" target="_blank">
@@ -203,19 +197,15 @@ export default function Home() {
             . I learned a lot about the American culture and tried out
             practically all sports they offered: Football, Cross Country,
             Powerlifting, Track & Field, and Baseball
-          </p>
-        </div>
-        <div className="flex justify-center items-center order-1 md:order-2">
-          {/* <img src="/focusjournal.png" alt="Screenshot of the Focus Journal Webapp" /> */}
-        </div>
-      </div>
+          </>,
+        ]}
+      />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="order-2 md:order-1">
-          <h3 className="text-2xl font-bold mt-8">
-            Bundeswettbewerb Informatik
-          </h3>
-          <p className="mt-2">
+      <EndeavorsCard
+        title="Bundeswettbewerb Informatik"
+        image="/schullv.png"
+        descriptionParagraphs={[
+          <>
             Two years in a row I participated in the highest German Informatics
             Competition: The{" "}
             <strong>
@@ -225,8 +215,8 @@ export default function Home() {
             </strong>
             . I passed all rounds and was one of the 23 finalists from over 2000
             participants.
-          </p>
-          <p className="mt-2">
+          </>,
+          <>
             This victory qualified me to take part in the training for the
             german national team at the{" "}
             <strong>
@@ -236,12 +226,34 @@ export default function Home() {
             </strong>
             . The training was intense and we practiced a lot of algorithmic
             problems and programming exercises.
-          </p>
-        </div>
-        <div className="flex justify-center items-center order-1 md:order-2">
-          {/* <img src="/focusjournal.png" alt="Screenshot of the Focus Journal Webapp" /> */}
-        </div>
-      </div>
+          </>,
+        ]}
+      />
     </article>
+  );
+}
+
+
+function EndeavorsCard({
+  title,
+  descriptionParagraphs,
+  image,
+}: {
+  title: string;
+  descriptionParagraphs: React.ReactNode[];
+  image: string;
+}) {
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="order-2 md:order-1">
+        <h3 className="text-2xl font-bold mt-8">{title}</h3>
+        {descriptionParagraphs.map((paragraph) => (
+          <p className="mt-2">{paragraph}</p>
+        ))}
+      </div>
+      <div className="flex justify-center items-center order-1 md:order-2">
+        {/* <img src="/focusjournal.png" alt="Screenshot of the Focus Journal Webapp" /> */}
+      </div>
+    </div>
   );
 }
