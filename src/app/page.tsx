@@ -1,4 +1,12 @@
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Lukas Kesch | CTO",
+  description:
+    "CTO of SchulLV, software engineer, and entrepreneur. Building EduTech and personal development Apps. Specializing in Next.js, Spring Boot, MySQL and cloud infrastructure.",
+};
+
 export default function Home() {
   return (
     <article className="min-h-screen p-8">
