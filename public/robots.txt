@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://kesch.dev
+
+# Sitemaps
+Sitemap: https://kesch.dev/sitemap.xml
