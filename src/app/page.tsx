@@ -239,8 +239,10 @@ function EndeavorsCard({
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       <div className="order-2 md:order-1">
         <h3 className="text-2xl font-bold mt-8">{title}</h3>
-        {descriptionParagraphs.map((paragraph) => (
-          <p className="mt-2">{paragraph}</p>
+        {descriptionParagraphs.map((paragraph, index) => (
+          <p className="mt-2" key={index}>
+            {paragraph}
+          </p>
         ))}
       </div>
       <div className="flex justify-center items-center order-1 md:order-2">
