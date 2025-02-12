@@ -196,9 +196,9 @@ export default function Home() {
                 Jackboro High School
               </a>
             </strong>
-            . I learned a lot about the American culture and tried out
-            practically all sports they offered: Football, Cross Country,
-            Powerlifting, Track & Field, and Baseball
+            . I had a great time and tried out practically all sports they
+            offered: Football, Cross Country, Powerlifting, Track & Field, and
+            Baseball
           </>,
         ]}
       />
