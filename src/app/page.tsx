@@ -153,9 +153,15 @@ export default function Home() {
             focused on Algorithms, Software Engineering, and Linear Algebra.
           </>,
           <>
-            During my studies I was already working as a Software Engineer at
-            SchulLV part time and got my first experience working on a large
-            scale web application.
+            I developed a lot of book smartness so to speak but most of our
+            classes lacked any practical aspect. In the evenings and weekends, I
+            was already coding and building my own projects eager to apply my
+            knowledge.
+          </>,
+          <>
+            During my time in university I also began working as a Student
+            Software Engineer at SchulLV and got my first experience working on
+            a large scale web application in a team.
           </>,
         ]}
       />
@@ -227,7 +233,6 @@ export default function Home() {
     </article>
   );
 }
-
 
 function EndeavorsCard({
   title,
