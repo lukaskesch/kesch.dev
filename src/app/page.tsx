@@ -1,10 +1,35 @@
 import Image from "next/image";
 import { Metadata } from "next";
 
+const title = "Lukas Kesch | CTO & Software Engineer";
+const description =
+  "CTO of SchulLV, software engineer, and entrepreneur. Building EduTech and personal development Apps. Specializing in Next.js, Spring Boot, MySQL and cloud infrastructure.";
+
 export const metadata: Metadata = {
-  title: "Lukas Kesch | CTO",
-  description:
-    "CTO of SchulLV, software engineer, and entrepreneur. Building EduTech and personal development Apps. Specializing in Next.js, Spring Boot, MySQL and cloud infrastructure.",
+  title,
+  description,
+  openGraph: {
+    title,
+    description,
+    url: "https://kesch.dev",
+    siteName: "Lukas Kesch",
+    images: [
+      {
+        url: "/lukas-circle-min.png",
+        width: 350,
+        height: 350,
+        alt: "Lukas Kesch",
+      },
+    ],
+    locale: "de_DE",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title,
+    description,
+    images: ["/lukas-circle-min.png"],
+  },
 };
 
 export default function Home() {
