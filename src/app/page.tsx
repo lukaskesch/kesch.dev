@@ -66,7 +66,6 @@ export default function Home() {
 
       <EndeavorsCard
         title="SchulLV"
-        image="/schullv.png"
         descriptionParagraphs={[
           <>
             <strong>
@@ -90,7 +89,6 @@ export default function Home() {
 
       <EndeavorsCard
         title="Focus Journal"
-        image="/schullv.png"
         descriptionParagraphs={[
           <>
             <strong>
@@ -121,7 +119,6 @@ export default function Home() {
 
       <EndeavorsCard
         title="Ubuntu Server"
-        image="/schullv.png"
         descriptionParagraphs={[
           <>
             This site and all my other personal projects run on an Ubuntu server
@@ -143,7 +140,6 @@ export default function Home() {
 
       <EndeavorsCard
         title="University"
-        image="/schullv.png"
         descriptionParagraphs={[
           <>
             I studied Computer Science at the{" "}
@@ -168,7 +164,6 @@ export default function Home() {
 
       <EndeavorsCard
         title="High School"
-        image="/schullv.png"
         descriptionParagraphs={[
           <>
             I graduated from the{" "}
@@ -203,7 +198,6 @@ export default function Home() {
 
       <EndeavorsCard
         title="Bundeswettbewerb Informatik"
-        image="/schullv.png"
         descriptionParagraphs={[
           <>
             Two years in a row I participated in the highest German Informatics
@@ -237,11 +231,9 @@ export default function Home() {
 function EndeavorsCard({
   title,
   descriptionParagraphs,
-  image,
 }: {
   title: string;
   descriptionParagraphs: React.ReactNode[];
-  image: string;
 }) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
