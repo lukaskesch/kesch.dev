@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <article className="min-h-screen p-8">
+    <article className="min-h-screen max-w-screen-xl mx-auto p-8">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center mt-8">
         <div className="order-2 md:order-1">
           <h1 className="text-6xl font-bold">Lukas Kesch</h1>
@@ -78,7 +78,7 @@ export default function Home() {
             study for their exams and for teachers to create new learning
             materials. We offer many subjects (Maths, German, English, Biology,
             ...) with original graduation exams for nearly all German states and
-            digital schoolbooks on our online platform.
+            digital schoolbooks.
           </>,
           <>
             As CTO I am leading the development of the platform (website, mobile
