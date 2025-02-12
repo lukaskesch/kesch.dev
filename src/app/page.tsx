@@ -56,6 +56,7 @@ export default function Home() {
           <Image
             src="/lukas-circle-min.png"
             alt="Picture of Lukas Kesch"
+            loading="eager"
             width={350}
             height={350}
           />
