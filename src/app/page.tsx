@@ -101,7 +101,7 @@ export default function Home() {
         <div className="order-2 md:order-1">
           <h3 className="text-2xl font-bold mt-8">Ubuntu Server</h3>
           <p className="mt-2">
-            All my personal projects run on an Ubuntu server in a datacenter in
+            This site and all my other personal projects run on an Ubuntu server in a datacenter in
             Germany. In the time of AWS, it is a great way to stay grounded in
             the basics.
           </p>
