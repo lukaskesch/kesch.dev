@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -13,11 +12,6 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const metadata: Metadata = {
-  title: "Kesch",
-  description: "Kesch",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -26,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="robots" content="index,follow" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -52,7 +47,7 @@ export default function RootLayout({
             <a href="/">
               <div className="text-2xl font-bold">Kesch.dev</div>
             </a>
-             <ul className="flex flex-row items-center gap-4"></ul>
+            <ul className="flex flex-row items-center gap-4"></ul>
           </nav>
           <nav>
             <ul className="flex flex-row items-center gap-4">
@@ -64,9 +59,7 @@ export default function RootLayout({
             </ul>
           </nav>
         </header>
-        <main>
-          {children}
-        </main>
+        <main>{children}</main>
       </body>
     </html>
   );
