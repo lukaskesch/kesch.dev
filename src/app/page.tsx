@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Metadata } from "next";
 
-const title = "Lukas Kesch | CTO & Software Engineer";
+const title = "Lukas Kesch | CTO & Entrepreneur";
 const description =
   "CTO of SchulLV, software engineer, and entrepreneur. Building EduTech and personal development Apps. Specializing in Next.js, Spring Boot, MySQL and cloud infrastructure.";
 
