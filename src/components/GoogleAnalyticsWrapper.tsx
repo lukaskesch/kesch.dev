@@ -5,18 +5,24 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 
 export default function GoogleAnalyticsWrapper() {
   const [hasConsent, setHasConsent] = useState<boolean | null>(null);
+  const [isLocalStorageChecked, setIsLocalStorageChecked] = useState(false);
 
   useEffect(() => {
     const storedConsent = localStorage.getItem("ga_consent");
     if (storedConsent) {
       setHasConsent(storedConsent === "true");
     }
+    setIsLocalStorageChecked(true);
   }, []);
 
   const handleConsent = (consent: boolean) => {
     localStorage.setItem("ga_consent", String(consent));
     setHasConsent(consent);
   };
+
+  if (!isLocalStorageChecked) {
+    return null;
+  }
 
   if (hasConsent === null) {
     return (
