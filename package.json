@@ -10,6 +10,7 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@next/third-parties": "^15.1.7",
     "next": "15.1.7",
     "next-sitemap": "^4.2.3",
     "react": "^19.0.0",
