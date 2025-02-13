@@ -27,7 +27,7 @@ export default function GoogleAnalyticsWrapper() {
   if (hasConsent === null) {
     return (
       <div className="fixed bottom-0 left-0 right-0 bg-white dark:bg-gray-800 p-4 shadow-lg border-t border-gray-200 dark:border-gray-700">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-600 dark:text-gray-300">
             This website uses Google Analytics to analyze traffic. Do you accept
             these cookies?
