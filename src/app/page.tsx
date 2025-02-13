@@ -46,9 +46,12 @@ export default function Home() {
                 SchulLV
               </a>
             </strong>
-            . On nights and weekends, I hack on various side projects. When
-            I&apos;m not in front of my MacBook, I am exercising (Gym, Running,
-            Biking, Skiing, ...), reading, or with my girlfriend, friends, or
+            . On nights and weekends, I hack on various side projects to sharpen
+            my saw and as a testground for new technology.
+          </p>
+          <p className="mt-2">
+            When I am not in front of my MacBook, I am exercising (Gym, Running,
+            Biking, Skiing, Swimming), reading, or with my girlfriend, friends, or
             family.
           </p>
         </div>
@@ -149,8 +152,7 @@ export default function Home() {
                 Karlsruhe Institute of Technology
               </a>
             </strong>{" "}
-            (KIT) in Germany. I finished my Bachelor study with a GPA of 3.7. I
-            focused on Algorithms, Software Engineering, and Linear Algebra.
+            (KIT) in Germany. I finished my Bachelor study with a GPA of 3.7. My focus was on Algorithms, Software Engineering, and Linear Algebra.
           </>,
           <>
             I developed a lot of book smartness so to speak but most of our
