@@ -51,8 +51,8 @@ export default function Home() {
           </p>
           <p className="mt-2">
             When I am not in front of my MacBook, I am exercising (Gym, Running,
-            Biking, Skiing, Swimming), reading, or with my girlfriend, friends, or
-            family.
+            Biking, Skiing, Swimming), reading, or with my girlfriend, friends,
+            or family.
           </p>
         </div>
         <div className="flex justify-center items-center order-1 md:order-2 mb-8 md:mt-0">
@@ -86,7 +86,8 @@ export default function Home() {
           <>
             As CTO I am leading the development of the platform (website, mobile
             app, and backend) and the infrastructure. The tech stack includes
-            Next.js, TypeScript, Spring Boot, MySQL, AWS, ...
+            Next.js (React), Expo (React Native), Spring Boot (Java), MySQL,
+            AWS, ...
           </>,
         ]}
       />
@@ -152,11 +153,12 @@ export default function Home() {
                 Karlsruhe Institute of Technology
               </a>
             </strong>{" "}
-            (KIT) in Germany. I finished my Bachelor study with a GPA of 3.7. My focus was on Algorithms, Software Engineering, and Linear Algebra.
+            (KIT) in Germany. I finished my Bachelor study with a GPA of 3.7. My
+            focus was on Algorithms, Software Engineering, and Linear Algebra.
           </>,
           <>
             I developed a lot of book smartness so to speak but most of our
-            classes lacked any practical aspect. In the evenings and weekends, I
+            classes lacked the practical aspect. In the evenings and weekends, I
             was already coding and building my own projects eager to apply my
             knowledge.
           </>,
