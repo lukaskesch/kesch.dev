@@ -236,8 +236,39 @@ export default function Home() {
       />
 
       <h2 className="text-3xl font-bold mt-16">My Skills</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="order-2 md:order-1">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <h3 className="text-2xl font-bold mt-8">Frontend</h3>
+          <p className="mt-2">
+            My go to stack for the frontend is React, Next.js, TypeScript, and
+            Tailwind CSS. For Mobile I use React Native with Expo.
+          </p>
+          <p className="mt-2">
+            I have a deep understanding of the React principles, Hooks, when and
+            why React re-renders. With Next.js I have both deployed the pages
+            and app router and used the static generation and server side
+            rendering.
+          </p>
+          <p className="mt-2">
+            I keep a close eye on the react ecosystem and emerging trends.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-2xl font-bold mt-8">Backend</h3>
+          <p className="mt-2">
+            Depending on the situation my go to solution are either Next.js
+            Server Actions or a full fleshed Spring Boot application which serves
+            as a REST API. I have used both extensively and learned their strengths
+            and weaknesses.
+          </p>
+          <p className="mt-2">
+            In most cases prefer SQL Databases like MySQL and PostgreSQL over
+            NoSQL databases like MongoDB. I have MySQL database for virtually all
+            my projects and over time I became proficient in crafting queries and
+            modeling the database schema.
+          </p>
+        </div>
+        <div>
           <h3 className="text-2xl font-bold mt-8">Infrastructure</h3>
           <p className="mt-2">
             I always found it fascinating how and on what the software we build
@@ -253,7 +284,7 @@ export default function Home() {
             cron scripts for backups, monitoring, and maintenance and many more.
           </p>
         </div>
-        <div className="order-1 md:order-2">
+        <div>
           <h3 className="text-2xl font-bold mt-8">DevOps</h3>
           <p className="mt-2">
             I love to optimize my development workflow and tools I use. It all
@@ -267,11 +298,17 @@ export default function Home() {
             efficient: Neovim, Tmux, Git, Karabiner, Ripgrep, and more.
           </p>
         </div>
+        {/* <div>
+          <h3 className="text-2xl font-bold mt-8">Scripting</h3>
+          <p className="mt-2">Maybe you could call me a script kiddie.</p>
+          <p className="mt-2"></p>
+        </div>
+        <div>
+          <h3 className="text-2xl font-bold mt-8">SEO</h3>
+          <p className="mt-2"></p>
+          <p className="mt-2"></p>
+        </div> */}
       </div>
-
-
-      {/* Scripting */}
-      {/* SEO */}
     </article>
   );
 }
@@ -284,7 +321,7 @@ function EndeavorsCard({
   descriptionParagraphs: React.ReactNode[];
 }) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       <div className="order-2 md:order-1">
         <h3 className="text-2xl font-bold mt-8">{title}</h3>
         {descriptionParagraphs.map((paragraph, index) => (
