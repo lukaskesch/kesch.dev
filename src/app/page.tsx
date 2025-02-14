@@ -234,6 +234,44 @@ export default function Home() {
           </>,
         ]}
       />
+
+      <h2 className="text-3xl font-bold mt-16">My Skills</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="order-2 md:order-1">
+          <h3 className="text-2xl font-bold mt-8">Infrastructure</h3>
+          <p className="mt-2">
+            I always found it fascinating how and on what the software we build
+            is deployed. I can call AWS my home and have a deep understanding of
+            over a dozen AWS services including EC2, S3, RDS, Lambda,
+            CloudFront, Route 53, and many more.
+          </p>
+          <p className="mt-2">
+            {/* Cicrling back on the home metapher, */}
+            As a weekend getaway I also like to tinker with my own server. This
+            is a great way to keep myself sharp on the basics. I run a SSL
+            secured reverse proxy, MySQL database, VPN with a custom DNS Server,
+            cron scripts for backups, monitoring, and maintenance and many more.
+          </p>
+        </div>
+        <div className="order-1 md:order-2">
+          <h3 className="text-2xl font-bold mt-8">DevOps</h3>
+          <p className="mt-2">
+            I love to optimize my development workflow and tools I use. It all
+            started when I learned about Vim Motions and from there I just kept
+            going. Some things as basic as reading the git reference manual.
+            Others include having a custom keyboard layout to maximise code
+            typing speed.
+          </p>
+          <p className="mt-2">
+            These are the tools I use to make my development workflow more
+            efficient: Neovim, Tmux, Git, Karabiner, Ripgrep, and more.
+          </p>
+        </div>
+      </div>
+
+
+      {/* Scripting */}
+      {/* SEO */}
     </article>
   );
 }
