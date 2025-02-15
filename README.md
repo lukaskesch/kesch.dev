@@ -10,7 +10,7 @@ npm ci
 npm run dev
 ```
 
-## Deployment
+## Production build
 
 ```bash
 docker-compose up --build -d
