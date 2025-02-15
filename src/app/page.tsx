@@ -102,7 +102,7 @@ export default function Home() {
               </a>
             </strong>{" "}
             is a journal app that lets you record and have an overview of your
-            focus sessions. A focus session can be any activity (learning,
+            time spend. You can record or log any activity (learning,
             coding, exercise, ...) you want to keep track of.
           </>,
           <>
