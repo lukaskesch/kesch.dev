@@ -1,7 +1,12 @@
 # Kesch.dev
 
-This is my personal website [kesch.dev](https://kesch.dev) built with
-[Next.js](https://nextjs.org/) and deployed using Docker on my own server.
+This is the code my personal website [kesch.dev](https://kesch.dev). Have a look 👀
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Docker](https://www.docker.com/)
 
 ## Development
 
