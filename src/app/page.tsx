@@ -237,6 +237,15 @@ export default function Home() {
 
       <h2 className="text-3xl font-bold mt-16">My Skills</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* <div>
+          <h3 className="text-2xl font-bold mt-8">Leadership</h3>
+          <p className="mt-2">
+          
+          </p>
+          <p className="mt-2">
+           
+          </p>
+        </div> */}
         <div>
           <h3 className="text-2xl font-bold mt-8">Frontend</h3>
           <p className="mt-2">
@@ -262,7 +271,7 @@ export default function Home() {
             strengths and weaknesses.
           </p>
           <p className="mt-2">
-            In most cases prefer SQL Databases like MySQL and PostgreSQL over
+            In most cases I prefer SQL Databases like MySQL and PostgreSQL over
             NoSQL databases like MongoDB. I have MySQL database for virtually
             all my projects and over time I became proficient in crafting
             queries and modeling the database schema.
@@ -306,8 +315,8 @@ export default function Home() {
           </p>
           <p className="mt-2">
             For simple tasks I stick with basic bash scripting with core utils
-            sprinkled in. For more complex tasks I choose Node.js. Its fast
-            to write and has a vast package ecosystem.
+            sprinkled in. For more complex tasks I choose Node.js. Its fast to
+            write and has a vast package ecosystem.
           </p>
         </div>
         {/* <div>
@@ -316,6 +325,8 @@ export default function Home() {
           <p className="mt-2"></p>
         </div> */}
       </div>
+
+      <h2 className="text-3xl font-bold mt-16">Off topic</h2>
     </article>
   );
 }
