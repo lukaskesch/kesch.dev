@@ -123,10 +123,10 @@ export default function Home() {
       />
 
       <EndeavorsCard
-        title="Ubuntu Server"
+        title="Self Hosting"
         descriptionParagraphs={[
           <>
-            This site and all my other personal projects run on an Ubuntu server
+            This site and all my other personal projects run on my Ubuntu server
             in a datacenter in Germany. In the time of AWS, it is a great way to
             stay grounded in the basics.
           </>,
