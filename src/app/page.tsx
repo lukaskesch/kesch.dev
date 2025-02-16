@@ -102,8 +102,8 @@ export default function Home() {
               </a>
             </strong>{" "}
             is a journal app that lets you record and have an overview of your
-            time spend. You can record or log any activity (learning,
-            coding, exercise, ...) you want to keep track of.
+            time spend. You can record or log any activity (learning, coding,
+            exercise, ...) you want to keep track of.
           </>,
           <>
             I am developing this open source app to track my exercise, coding,
@@ -326,7 +326,17 @@ export default function Home() {
         </div> */}
       </div>
 
-      <h2 className="text-3xl font-bold mt-16">Off topic</h2>
+      {/* <h2 className="text-3xl font-bold mt-16">Off topic</h2> */}
+
+
+
+      <h2 className="text-3xl font-bold mt-16">Reaching out</h2>
+      <p className="mt-2">
+        If you want to get in touch feel free to write me an email at{" "}
+        <strong>
+          <a href="mailto:lukas@kesch.dev">lukas@kesch.dev</a>
+        </strong>.
+      </p>
     </article>
   );
 }
