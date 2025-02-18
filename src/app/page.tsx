@@ -332,10 +332,10 @@ export default function Home() {
 
       <h2 className="text-3xl font-bold mt-16">Reaching out</h2>
       <p className="mt-2">
-        If you want to get in touch feel free to write me an email at{" "}
+        Feel free to write me an email at{" "}
         <strong>
           <a href="mailto:lukas@kesch.dev">lukas@kesch.dev</a>
-        </strong>.
+        </strong>
       </p>
     </article>
   );
