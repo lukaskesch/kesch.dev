@@ -93,12 +93,12 @@ export default function Home() {
       />
 
       <EndeavorsCard
-        title="Focus Journal"
+        title="Life Journal"
         descriptionParagraphs={[
           <>
             <strong>
-              <a href="https://focusjournal.io" target="_blank">
-                FocusJournal.io
+              <a href="https://lifejournal.io" target="_blank">
+                LifeJournal.io
               </a>
             </strong>{" "}
             is a journal app that lets you record and have an overview of your
@@ -112,7 +112,7 @@ export default function Home() {
             with a Cloudflare proxy in front. You can find it on my{" "}
             <strong>
               <a
-                href="https://github.com/lukaskesch/productivity-journal"
+                href="https://github.com/lukaskesch/lifejournal.io"
                 target="_blank">
                 GitHub
               </a>
