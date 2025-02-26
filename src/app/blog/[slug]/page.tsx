@@ -48,7 +48,7 @@ export default async function BlogPostPage({
       </Link>
 
       <article className="prose lg:prose-xl max-w-none">
-        <h1>{frontMatter.title}</h1>
+        <h1 className="text-3xl font-bold mb-4">{frontMatter.title}</h1>
         <div className="text-gray-500 mb-6">
           {new Date(frontMatter.date).toLocaleDateString()}
         </div>
