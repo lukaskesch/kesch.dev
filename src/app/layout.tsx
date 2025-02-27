@@ -1,6 +1,8 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import GoogleAnalyticsWrapper from "@/components/GoogleAnalyticsWrapper";
+import Link from "next/link";
+import NavLink from "@/components/nav-link";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -12,6 +14,8 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+
+
 
 export default function RootLayout({
   children,
@@ -45,10 +49,17 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <header className="flex flex-row justify-between items-center mx-4 my-2">
           <nav className="flex flex-row gap-4 items-center">
-            <a href="/">
+            <Link href="/">
               <div className="text-2xl font-bold">Kesch.dev</div>
-            </a>
-            <ul className="flex flex-row items-center gap-4"></ul>
+            </Link>
+            <ul className="flex flex-row items-center gap-4">
+              <li>
+                <NavLink href="/">Home</NavLink>
+              </li>
+              <li>
+                <NavLink href="/blog">Blog</NavLink>
+              </li>
+            </ul>
           </nav>
           <nav>
             <ul className="flex flex-row items-center gap-4">

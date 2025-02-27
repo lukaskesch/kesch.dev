@@ -44,7 +44,7 @@ export default async function BlogPostPage({
     <main className="container mx-auto px-4 py-8">
       <Link
         href="/blog"
-        className="text-blue-600 hover:underline mb-6 inline-block">
+        className=" hover:underline mb-6 inline-block">
         ← Back to blog
       </Link>
 

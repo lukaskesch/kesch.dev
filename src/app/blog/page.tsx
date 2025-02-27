@@ -63,7 +63,7 @@ export default async function BlogPage() {
               </span>
               <Link
                 href={`/blog/${post.slug}`}
-                className="text-blue-600 hover:underline">
+                className="hover:underline">
                 Read more →
               </Link>
             </div>
