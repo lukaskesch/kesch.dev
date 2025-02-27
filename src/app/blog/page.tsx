@@ -25,8 +25,6 @@ async function getBlogPosts() {
     // Use gray-matter to parse the post metadata section
     const { data } = matter(fileContents);
 
-    console.log(data);
-
     return {
       slug,
       title: data.title,

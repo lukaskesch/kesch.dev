@@ -49,10 +49,12 @@ export default async function BlogPostPage({
 
       <article className="prose lg:prose-xl max-w-none">
         <h1 className="text-3xl font-bold mb-4">{frontMatter.title}</h1>
-        <div className="text-gray-500 mb-6">
+        <div className="text-gray-500">
           {new Date(frontMatter.date).toLocaleDateString()}
         </div>
-        <MDXRemote source={content} />
+        <div className="blog-content">
+          <MDXRemote source={content} />
+        </div>
       </article>
     </main>
   );
@@ -68,7 +70,7 @@ export async function generateMetadata({
   const { frontMatter } = await getBlogPost(slug);
 
   return {
-    title: `${frontMatter.title} | Blog`,
+    title: `${frontMatter.title} | Blog | Kesch.dev`,
     description: frontMatter.excerpt,
   };
 }
