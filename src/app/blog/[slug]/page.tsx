@@ -3,6 +3,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import { Metadata } from "next";
 
 // Generate static params for all blog posts
 export async function generateStaticParams() {
@@ -61,16 +62,20 @@ export default async function BlogPostPage({
 }
 
 // Add metadata for the page
-export async function generateMetadata({
-  params,
-}: {
+export async function generateMetadata(props: {
   params: { slug: string };
-}) {
-  const { slug } = params;
-  const { frontMatter } = await getBlogPost(slug);
+}): Promise<Metadata> {
+  const { slug } = props.params;
+  const post = await getBlogPost(slug);
 
   return {
-    title: `${frontMatter.title} | Blog | Kesch.dev`,
-    description: frontMatter.excerpt,
+    title: `${post.frontMatter.title} | Blog | Kesch.dev`,
+    description: post.frontMatter.excerpt,
+    openGraph: {
+      title: post.frontMatter.title,
+      description: post.frontMatter.excerpt,
+      type: "article",
+      publishedTime: post.frontMatter.date,
+    },
   };
 }
