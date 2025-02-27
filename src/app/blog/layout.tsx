@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog | My Website",
-  description: "Read our latest blog posts",
+  title: "Blog | Kesch.dev",
+  description: "Read my latest blog posts about my thoughts and projects",
 };
 
 export default function BlogLayout({
