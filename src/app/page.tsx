@@ -62,6 +62,7 @@ export default function Home() {
             loading="eager"
             width={350}
             height={350}
+            priority
           />
         </div>
       </div>
