@@ -3,13 +3,6 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
-interface BlogPost {
-  slug: string;
-  title: string;
-  date: string;
-  excerpt: string;
-}
-
 async function getBlogPosts() {
   const postsDirectory = path.join(process.cwd(), "content/blog");
   const filenames = fs.readdirSync(postsDirectory);
@@ -45,7 +38,10 @@ export default async function BlogPage() {
   return (
     <main className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-8">Blog</h1>
-
+      <p className="mb-8">
+        I am a big fan of sharing your work and the journey it took to get there.
+        Here are some of my thoughts on the things I&apos;ve learned and currently work on.
+      </p>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {posts.map((post) => (
           <article
