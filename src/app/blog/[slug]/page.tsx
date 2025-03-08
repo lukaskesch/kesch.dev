@@ -56,7 +56,7 @@ export default async function BlogPostPage({
         </div>
       </article>
       <div className="mt-8">
-        <Link href="/blog" className=" hover:underline mb-6 inline-block">
+        <Link href="/blog" className="hover:underline mb-6 inline-block">
           ← Back to blog
         </Link>
       </div>

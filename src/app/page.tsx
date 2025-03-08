@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Metadata } from "next";
-
+import FadeInSection from "@/components/FadeInSection";
+import EndeavorsCard from "@/components/endeavors-card";
 const title = "Lukas Kesch | CTO & Entrepreneur";
 const description =
   "CTO of SchulLV, software engineer, and entrepreneur. Building EduTech and personal development Apps. Specializing in Next.js, Spring Boot, MySQL and cloud infrastructure.";
@@ -68,6 +69,8 @@ export default function Home() {
       </div>
 
       <h2 className="text-3xl font-bold mt-16">My Endeavors</h2>
+
+      <FadeInSection />
 
       <EndeavorsCard
         title="SchulLV"
@@ -330,7 +333,6 @@ export default function Home() {
       {/* <h2 className="text-3xl font-bold mt-16">Off topic</h2> */}
 
 
-
       <h2 className="text-3xl font-bold mt-16">Reaching out</h2>
       <p className="mt-2">
         Feel free to write me an email at{" "}
@@ -342,26 +344,4 @@ export default function Home() {
   );
 }
 
-function EndeavorsCard({
-  title,
-  descriptionParagraphs,
-}: {
-  title: string;
-  descriptionParagraphs: React.ReactNode[];
-}) {
-  return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <div className="order-2 md:order-1">
-        <h3 className="text-2xl font-bold mt-8">{title}</h3>
-        {descriptionParagraphs.map((paragraph, index) => (
-          <p className="mt-2" key={index}>
-            {paragraph}
-          </p>
-        ))}
-      </div>
-      <div className="flex justify-center items-center order-1 md:order-2">
-        {/* <img src="/focusjournal.png" alt="Screenshot of the Focus Journal Webapp" /> */}
-      </div>
-    </div>
-  );
-}
+
