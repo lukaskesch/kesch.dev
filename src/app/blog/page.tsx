@@ -39,7 +39,7 @@ export default async function BlogPage() {
     <main className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-8">Blog</h1>
       <p className="mb-8">
-        I am a big fan of sharing your work and the journey it took to get there.
+        I am a big fan of sharing my work and the journey it took to accomplish something amazing.
         Here are some of my thoughts on the things I&apos;ve learned and currently work on.
       </p>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
