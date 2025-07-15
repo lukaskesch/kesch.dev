@@ -351,7 +351,7 @@ export default function Home() {
             LinkedIn
           </a>
         </strong>
-        {" "}or write me an email at{" "}
+        {" "}or shoot me an email at{" "}
         <strong>
           <a href="mailto:lukas@kesch.dev">lukas@kesch.dev</a>
         </strong>
