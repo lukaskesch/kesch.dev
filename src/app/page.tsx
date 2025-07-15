@@ -83,9 +83,9 @@ export default function Home() {
             </strong>{" "}
             is the leading online learning platform in Germany for students to
             study for their exams and for teachers to create new learning
-            materials. We offer a variety of subjects including Maths, German, English,
-            Biology, and more with original graduation exams for nearly all German
-            states and digital schoolbooks.
+            materials. We offer a variety of subjects including Maths, German,
+            English, Biology, and more with original graduation exams for nearly
+            all German states and digital schoolbooks.
           </>,
           <>
             As CTO I am leading the development of the platform (website, mobile
@@ -153,14 +153,14 @@ export default function Home() {
                 Karlsruhe Institute of Technology
               </a>
             </strong>{" "}
-            (KIT) in Germany. I finished my Bachelor degree with a GPA of 3.7. My
-            focus was on Algorithms, Software Engineering, and Linear Algebra.
+            (KIT) in Germany. I finished my Bachelor degree with a GPA of 3.7.
+            My focus was on Algorithms, Software Engineering, and Linear
+            Algebra.
           </>,
           <>
             I developed a lot of book smartness so to speak but most of our
             classes lacked the practical aspect. In the evenings and weekends, I
-            was coding and building my own projects eager to apply my
-            knowledge.
+            was coding and building my own projects eager to apply my knowledge.
           </>,
           <>
             During my time in university I also began working as a Student
@@ -247,6 +247,20 @@ export default function Home() {
           </p>
         </div> */}
         <div>
+          <h3 className="text-2xl font-bold mt-8">AI & Machine Learning</h3>
+          <p className="mt-2">
+            I have built multiple AI applications using Retrieval-Augmented
+            Generation (RAG) and Model Context Protocol (MCP) to expand on the
+            capabilities of LLMs like Claude, ChatGPT, and Gemini.
+          </p>
+          <p className="mt-2">
+            I actively use AI tools in my daily workflow. I love to use Claude
+            and ChatGPT for learning and research. For coding I am always
+            testing out the newest tools and am fascinated by the progress of
+            AI.
+          </p>
+        </div>
+        <div>
           <h3 className="text-2xl font-bold mt-8">Frontend</h3>
           <p className="mt-2">
             My go to stack for the frontend is React, Next.js, TypeScript, and
@@ -273,7 +287,7 @@ export default function Home() {
           <p className="mt-2">
             In most cases I prefer SQL Databases like MySQL and PostgreSQL over
             NoSQL databases like MongoDB. I have MySQL database for virtually
-            all my projects and over time I became proficient in crafting
+            all my projects and became proficient in crafting performant
             queries and modeling the database schema.
           </p>
         </div>
@@ -319,6 +333,7 @@ export default function Home() {
             write and has a vast package ecosystem.
           </p>
         </div>
+
         {/* <div>
           <h3 className="text-2xl font-bold mt-8">SEO</h3>
           <p className="mt-2"></p>
@@ -327,7 +342,6 @@ export default function Home() {
       </div>
 
       {/* <h2 className="text-3xl font-bold mt-16">Off topic</h2> */}
-
 
       <h2 className="text-3xl font-bold mt-16">Reaching out</h2>
       <p className="mt-2">
