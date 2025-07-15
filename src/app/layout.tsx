@@ -68,6 +68,11 @@ export default function RootLayout({
                   GitHub
                 </a>
               </li>
+              <li>
+                <a href="https://linkedin.com/in/lukaskesch" target="_blank">
+                  LinkedIn
+                </a>
+              </li>
             </ul>
           </nav>
         </header>
