@@ -287,8 +287,8 @@ export default function Home() {
           <p className="mt-2">
             In most cases I prefer SQL Databases like MySQL and PostgreSQL over
             NoSQL databases like MongoDB. I have MySQL database for virtually
-            all my projects and became proficient in crafting performant
-            queries and modeling the database schema.
+            all my projects and became proficient in crafting performant queries
+            and modeling the database schema.
           </p>
         </div>
         <div>
@@ -345,10 +345,17 @@ export default function Home() {
 
       <h2 className="text-3xl font-bold mt-16">Reaching out</h2>
       <p className="mt-2">
-        Feel free to write me an email at{" "}
+        Feel free to connect with me on{" "}
+        <strong>
+          <a href="https://linkedin.com/in/lukaskesch" target="_blank">
+            LinkedIn
+          </a>
+        </strong>
+        {" "}or write me an email at{" "}
         <strong>
           <a href="mailto:lukas@kesch.dev">lukas@kesch.dev</a>
         </strong>
+        .
       </p>
     </article>
   );
