@@ -83,9 +83,9 @@ export default function Home() {
             </strong>{" "}
             is the leading online learning platform in Germany for students to
             study for their exams and for teachers to create new learning
-            materials. We offer many subjects (Maths, German, English, Biology,
-            ...) with original graduation exams for nearly all German states and
-            digital schoolbooks.
+            materials. We offer a variety of subjects including Maths, German, English,
+            Biology, and more with original graduation exams for nearly all German
+            states and digital schoolbooks.
           </>,
           <>
             As CTO I am leading the development of the platform (website, mobile
@@ -140,10 +140,6 @@ export default function Home() {
             WireGuard as my VPN with AdGuard as my DNS Server, and some cron
             scripts for backups, monitoring, and maintenance.
           </>,
-          <>
-            Maybe in the future I will set up a server on my own hardware in my
-            home or colocate it in a datacenter.
-          </>,
         ]}
       />
 
@@ -157,13 +153,13 @@ export default function Home() {
                 Karlsruhe Institute of Technology
               </a>
             </strong>{" "}
-            (KIT) in Germany. I finished my Bachelor study with a GPA of 3.7. My
+            (KIT) in Germany. I finished my Bachelor degree with a GPA of 3.7. My
             focus was on Algorithms, Software Engineering, and Linear Algebra.
           </>,
           <>
             I developed a lot of book smartness so to speak but most of our
             classes lacked the practical aspect. In the evenings and weekends, I
-            was already coding and building my own projects eager to apply my
+            was coding and building my own projects eager to apply my
             knowledge.
           </>,
           <>
