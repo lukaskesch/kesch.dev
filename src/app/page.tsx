@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Metadata } from "next";
 import FadeInSection from "@/components/FadeInSection";
 import EndeavorsCard from "@/components/endeavors-card";
+import { Fragment } from "react";
 const title = "Lukas Kesch | CTO & Entrepreneur";
 const description =
   "CTO of SchulLV, software engineer, and entrepreneur. Building EduTech and personal development Apps. Specializing in Next.js, Spring Boot, MySQL and cloud infrastructure.";
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: "Lukas Kesch",
     images: [
       {
-        url: "/lukas-circle-min.png",
+        url: "/images/lukas-circle-min.png",
         width: 350,
         height: 350,
         alt: "Lukas Kesch",
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary",
     title,
     description,
-    images: ["/lukas-circle-min.png"],
+    images: ["/images/lukas-circle-min.png"],
   },
 };
 
@@ -58,7 +59,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center items-center order-1 md:order-2 mb-8 md:mt-0">
           <Image
-            src="/lukas-circle-min.png"
+            src="/images/lukas-circle-min.png"
             alt="Picture of Lukas Kesch"
             loading="eager"
             width={350}
@@ -74,8 +75,9 @@ export default function Home() {
 
       <EndeavorsCard
         title="SchulLV"
+        // imagePath="/images/schullv.png"
         descriptionParagraphs={[
-          <>
+          <Fragment key="1">
             <strong>
               <a href="https://www.schullv.de" target="_blank">
                 SchulLV
@@ -86,20 +88,20 @@ export default function Home() {
             materials. We offer a variety of subjects including Maths, German,
             English, Biology, and more with original graduation exams for nearly
             all German states and digital schoolbooks.
-          </>,
-          <>
+          </Fragment>,
+          <Fragment key="2">
             As CTO I am leading the development of the platform (website, mobile
             app, and backend) and the infrastructure. The tech stack includes
             Next.js (React), Expo (React Native), Spring Boot (Java), MySQL,
             AWS, ...
-          </>,
+          </Fragment>,
         ]}
       />
 
       <EndeavorsCard
         title="Life Journal"
         descriptionParagraphs={[
-          <>
+          <Fragment key="1">
             <strong>
               <a href="https://lifejournal.io" target="_blank">
                 LifeJournal.io
@@ -108,8 +110,8 @@ export default function Home() {
             is a journal app that lets you record and have an overview of your
             time spend. You can record or log any activity (learning, coding,
             exercise, ...) you want to keep track of.
-          </>,
-          <>
+          </Fragment>,
+          <Fragment key="2">
             I am developing this open source app to track my exercise, coding,
             and learning habits. The Web App is built with Next.js, TypeScript,
             Tailwind CSS, and MySQL. I am self-hosting the app on my own server
@@ -122,31 +124,31 @@ export default function Home() {
               </a>
             </strong>
             .
-          </>,
+          </Fragment>,
         ]}
       />
 
       <EndeavorsCard
         title="Self Hosting"
         descriptionParagraphs={[
-          <>
+          <Fragment key="1">
             This site and all my other personal projects run on my Ubuntu server
             in a datacenter in Germany. In the time of AWS, it is a great way to
             stay grounded in the basics.
-          </>,
-          <>
+          </Fragment>,
+          <Fragment key="2">
             I am running: Nginx as a reverse proxy with Certbot for my side
             projects, MySQL as my go to database, Docker for my Next.js apps,
             WireGuard as my VPN with AdGuard as my DNS Server, and some cron
             scripts for backups, monitoring, and maintenance.
-          </>,
+          </Fragment>,
         ]}
       />
 
       <EndeavorsCard
         title="University"
         descriptionParagraphs={[
-          <>
+          <Fragment key="1">
             I studied Computer Science at the{" "}
             <strong>
               <a href="https://kit.edu/" target="_blank">
@@ -156,17 +158,17 @@ export default function Home() {
             (KIT) in Germany. I finished my Bachelor degree with a GPA of 3.7.
             My focus was on Algorithms, Software Engineering, and Linear
             Algebra.
-          </>,
-          <>
+          </Fragment>,
+          <Fragment key="2">
             I developed a lot of book smartness so to speak but most of our
             classes lacked the practical aspect. In the evenings and weekends, I
             was coding and building my own projects eager to apply my knowledge.
-          </>,
-          <>
+          </Fragment>,
+          <Fragment key="3">
             During my time in university I also began working as a Student
             Software Engineer at SchulLV and got my first experience working on
             a large scale web application in a team.
-          </>,
+          </Fragment>,
         ]}
       />
 
@@ -176,7 +178,7 @@ export default function Home() {
       <EndeavorsCard
         title="High School"
         descriptionParagraphs={[
-          <>
+          <Fragment key="1">
             I graduated from the{" "}
             <strong>
               <a
@@ -188,12 +190,12 @@ export default function Home() {
             (German high school) with the highest GPA in my class of 4.0. I
             selected my classes based on my deep interest in the STEM subjects:
             Computer Science, Mathmatics, Physics, and Chemistry.
-          </>,
-          <>
+          </Fragment>,
+          <Fragment key="2">
             I received multiple awards and scholarships: Ferry-Porsche Preis,
             Physik-Preis, Deutschlandstipendium
-          </>,
-          <>
+          </Fragment>,
+          <Fragment key="3">
             I spent my Junior year as an Exchange Student in the USA at the{" "}
             <strong>
               <a href="https://www.jacksboroisd.net/o/jhs" target="_blank">
@@ -203,14 +205,14 @@ export default function Home() {
             . I had a great time and tried out practically all sports they
             offered: Football, Cross Country, Powerlifting, Track & Field, and
             Baseball
-          </>,
+          </Fragment>,
         ]}
       />
 
       <EndeavorsCard
         title="Bundeswettbewerb Informatik"
         descriptionParagraphs={[
-          <>
+          <Fragment key="1">
             Two years in a row I participated in the highest German Informatics
             Competition: The{" "}
             <strong>
@@ -220,8 +222,8 @@ export default function Home() {
             </strong>
             . I passed all rounds and was one of the 23 finalists from over 2000
             participants.
-          </>,
-          <>
+          </Fragment>,
+          <Fragment key="2">
             This victory qualified me to take part in the training for the
             german national team at the{" "}
             <strong>
@@ -231,21 +233,12 @@ export default function Home() {
             </strong>
             . The training was intense and we practiced a lot of algorithmic
             problems and programming exercises.
-          </>,
+          </Fragment>,
         ]}
       />
 
       <h2 className="text-3xl font-bold mt-16">My Engineering Skills</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {/* <div>
-          <h3 className="text-2xl font-bold mt-8">Leadership</h3>
-          <p className="mt-2">
-          
-          </p>
-          <p className="mt-2">
-           
-          </p>
-        </div> */}
         <div>
           <h3 className="text-2xl font-bold mt-8">AI & Machine Learning</h3>
           <p className="mt-2">
@@ -345,7 +338,7 @@ export default function Home() {
 
       <h2 className="text-3xl font-bold mt-16">Reaching out</h2>
       <p className="mt-2">
-        Feel free to connect with me on{" "}
+        Connect with me on{" "}
         <strong>
           <a href="https://linkedin.com/in/lukaskesch" target="_blank">
             LinkedIn
