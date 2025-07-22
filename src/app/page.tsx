@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <article className="min-h-screen max-w-screen-xl mx-auto p-8">
+    <article className="min-h-screen max-w-screen-lg mx-auto p-8">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center mt-8">
         <div className="order-2 md:order-1">
           <h1 className="text-6xl font-bold">Lukas Kesch</h1>
@@ -52,8 +52,7 @@ export default function Home() {
             my saw and as a testground for new technology.
           </p>
           <p className="mt-2">
-            When I am not in front of my MacBook, I am exercising (Gym, Running,
-            Biking, Skiing, Swimming), reading, or with my girlfriend, friends,
+            When I am not in front of my MacBook, I am exercising (Gym, Triathlon, Skiing), reading, or with my girlfriend, friends,
             or family.
           </p>
         </div>
@@ -75,7 +74,7 @@ export default function Home() {
 
       <EndeavorsCard
         title="SchulLV"
-        // imagePath="/images/schullv.png"
+        imagePath="/images/schullv.png"
         descriptionParagraphs={[
           <Fragment key="1">
             <strong>
