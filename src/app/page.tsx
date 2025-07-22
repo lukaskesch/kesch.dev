@@ -42,7 +42,7 @@ export default function Home() {
           <h1 className="text-6xl font-bold">Lukas Kesch</h1>
           <p className="mt-2 text-xl italic">CTO and Entrepreneur</p>
           <p className="mt-4">
-            I am the CTO of the German EduTech Startup{" "}
+            I am the CTO & CAIO of the German EduTech Startup{" "}
             <strong>
               <a href="https://www.schullv.de" target="_blank">
                 SchulLV
@@ -52,8 +52,9 @@ export default function Home() {
             my saw and as a testground for new technology.
           </p>
           <p className="mt-2">
-            When I am not in front of my MacBook, I am exercising (Gym, Triathlon, Skiing), reading, or with my girlfriend, friends,
-            or family.
+            When I am not in front of my MacBook, I am exercising (Gym,
+            Triathlon, Skiing), reading, or with my girlfriend, friends, or
+            family.
           </p>
         </div>
         <div className="flex justify-center items-center order-1 md:order-2 mb-8 md:mt-0">
@@ -94,6 +95,9 @@ export default function Home() {
             Next.js (React), Expo (React Native), Spring Boot (Java), MySQL,
             AWS, ...
           </Fragment>,
+          // <Fragment key="3">
+          //   As CAIO
+          // </Fragment>,
         ]}
       />
 
@@ -342,8 +346,8 @@ export default function Home() {
           <a href="https://linkedin.com/in/lukaskesch" target="_blank">
             LinkedIn
           </a>
-        </strong>
-        {" "}or shoot me an email at{" "}
+        </strong>{" "}
+        or shoot me an email at{" "}
         <strong>
           <a href="mailto:lukas@kesch.dev">lukas@kesch.dev</a>
         </strong>
