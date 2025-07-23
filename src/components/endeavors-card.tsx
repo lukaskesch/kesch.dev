@@ -6,10 +6,12 @@ export default function EndeavorsCard({
   title,
   descriptionParagraphs,
   imagePath,
+  maxDimension = 400,
 }: {
   title: string;
   descriptionParagraphs: React.ReactNode[];
   imagePath?: string;
+  maxDimension?: number;
 }) {
   const shouldFadeIn = false;
   return (
@@ -33,8 +35,8 @@ export default function EndeavorsCard({
               src={imagePath}
               alt="Screenshot of the Focus Journal Webapp"
               className="rounded-md"
-              width={400}
-              height={400}
+              width={maxDimension}
+              height={maxDimension}
               quality={100}
               style={{ imageRendering: "crisp-edges" }}
             />

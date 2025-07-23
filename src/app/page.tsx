@@ -214,6 +214,8 @@ export default function Home() {
 
       <EndeavorsCard
         title="Bundeswettbewerb Informatik"
+        imagePath="/images/bwinf.jpeg"
+        maxDimension={300}
         descriptionParagraphs={[
           <Fragment key="1">
             Two years in a row I participated in the highest German Informatics
