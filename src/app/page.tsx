@@ -150,6 +150,8 @@ export default function Home() {
 
       <EndeavorsCard
         title="University"
+        imagePath="/images/kit.jpeg"
+        maxDimension={400}
         descriptionParagraphs={[
           <Fragment key="1">
             I studied Computer Science at the{" "}
@@ -180,7 +182,7 @@ export default function Home() {
 
       <EndeavorsCard
         title="High School"
-        imagePath="/images/abi.jpeg"
+        imagePath="/images/hgg.jpeg"
         maxDimension={400}
         descriptionParagraphs={[
           <Fragment key="1">

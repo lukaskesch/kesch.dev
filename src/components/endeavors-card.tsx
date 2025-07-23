@@ -33,7 +33,7 @@ export default function EndeavorsCard({
           {imagePath && (
             <Image
               src={imagePath}
-              alt="Screenshot of the Focus Journal Webapp"
+              alt={`Picture of the ${title}`}
               className="rounded-md"
               width={maxDimension}
               height={maxDimension}
