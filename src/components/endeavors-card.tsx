@@ -29,7 +29,7 @@ export default function EndeavorsCard({
             </p>
           ))}
         </div>
-        <div className="flex justify-center items-start order-1 md:order-2">
+        <div className="flex justify-start items-start order-1 md:order-2 md:justify-center">
           {imagePath && (
             <Image
               src={imagePath}
