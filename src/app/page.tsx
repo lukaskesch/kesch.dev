@@ -180,6 +180,8 @@ export default function Home() {
 
       <EndeavorsCard
         title="High School"
+        imagePath="/images/abi.jpeg"
+        maxDimension={400}
         descriptionParagraphs={[
           <Fragment key="1">
             I graduated from the{" "}
@@ -340,6 +342,8 @@ export default function Home() {
       </div>
 
       {/* <h2 className="text-3xl font-bold mt-16">Off topic</h2> */}
+
+      {/* TODO: Hobby section: Conference, Triathlon, Skiing, Reading, Family, Friends */}
 
       <h2 className="text-3xl font-bold mt-16">Reaching out</h2>
       <p className="mt-2">
