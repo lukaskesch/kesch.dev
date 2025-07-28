@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary",
     title,
     description,
-    images: ["/images/lukas-circle-min.png"],
+    images: ["/images/lukas-circle-min-v2.png"],
   },
 };
 
@@ -59,7 +59,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center items-center order-1 md:order-2 mb-8 md:mt-0">
           <Image
-            src="/images/lukas-circle-min-new.png"
+            src="/images/lukas-circle-min-v2.png"
             alt="Picture of Lukas Kesch"
             loading="eager"
             width={350}
@@ -75,7 +75,7 @@ export default function Home() {
 
       <EndeavorsCard
         title="SchulLV"
-        imagePath="/images/schullv.png"
+        imagePath="/images/schullv-v3.png"
         descriptionParagraphs={[
           <Fragment key="1">
             <strong>
