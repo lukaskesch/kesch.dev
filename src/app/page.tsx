@@ -143,7 +143,7 @@ export default function Home() {
           <Fragment key="2">
             I am running: Nginx as a reverse proxy with Certbot for my side
             projects, MySQL as my go to database, Docker for my Next.js apps,
-            WireGuard as my VPN with AdGuard as my DNS Server, and some cron
+            WireGuard as my VPN with AdGuard as my personal DNS Server, and some cron
             scripts for backups, monitoring, and maintenance.
           </Fragment>,
         ]}
@@ -168,7 +168,7 @@ export default function Home() {
           <Fragment key="2">
             I developed a lot of book smartness so to speak but most of our
             classes lacked the practical aspect. In the evenings and weekends, I
-            was coding and building my own projects eager to apply my knowledge.
+            was hacking on my own projects eager to apply my knowledge.
           </Fragment>,
           <Fragment key="3">
             During my time in university I also began working as a Student
@@ -293,7 +293,7 @@ export default function Home() {
           </p>
           <p className="mt-2">
             In most cases I prefer SQL Databases like MySQL and PostgreSQL over
-            NoSQL databases like MongoDB. I have MySQL database for virtually
+            NoSQL databases like MongoDB. I have a MySQL database for virtually
             all my projects and became proficient in crafting performant queries
             and modeling the database schema.
           </p>
@@ -301,7 +301,7 @@ export default function Home() {
         <div>
           <h3 className="text-2xl font-bold mt-8">Infrastructure</h3>
           <p className="mt-2">
-            I always found it fascinating how and on what the software we build
+            I always find it fascinating how and on what the software we build
             is deployed. I can call AWS my home and have a deep understanding of
             over a dozen AWS services including EC2, S3, RDS, Lambda,
             CloudFront, Route 53, and many more.
