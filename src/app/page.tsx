@@ -42,7 +42,8 @@ export default function Home() {
           <h1 className="text-6xl font-bold">Lukas Kesch</h1>
           <p className="mt-2 text-xl italic">CTO and Entrepreneur</p>
           <p className="mt-4">
-            I am the CTO, CAIO, and one of four Managing Directors of the German EduTech Startup{" "}
+            I am the CTO, CAIO, and one of four Managing Directors of the German
+            EduTech Startup{" "}
             <strong>
               <a href="https://www.schullv.de" target="_blank">
                 SchulLV
@@ -161,9 +162,8 @@ export default function Home() {
               </a>
             </strong>{" "}
             (KIT) in Germany. I finished my Bachelor studies with a GPA of 3.7
-            (1.7 on the German scale).
-            My focus was on Algorithms, Software Engineering, and Linear
-            Algebra.
+            (1.7 on the German scale). My focus was on Algorithms, Software
+            Engineering, and Linear Algebra.
           </Fragment>,
           <Fragment key="2">
             I developed a lot of book smartness so to speak but most of our
@@ -211,9 +211,9 @@ export default function Home() {
                 Jackboro High School
               </a>
             </strong>
-            . I had a great time and tried out practically all sports they
+            . I had a great time and participated in practically all sports they
             offered: Football, Cross Country, Powerlifting, Track & Field, and
-            Baseball
+            Baseball.
           </Fragment>,
         ]}
       />
@@ -239,11 +239,14 @@ export default function Home() {
             german national team at the{" "}
             <strong>
               <a href="https://ioinformatics.org/" target="_blank">
-                International Olympiad in Informatics
+                International Olympiad in Informatics (IOI)
               </a>
             </strong>
             . The training was intense and we solved a lot of algorithmic
-            problems and learned a lot about data structures.
+            problems and learned a lot about data structures. I really enjoyed
+            it! In the end I prioritized my studies and left the training. This
+            is something I would have done differently if I could do it over
+            again. I would have loved to compete in the IOI.
           </Fragment>,
         ]}
       />
@@ -260,7 +263,7 @@ export default function Home() {
           <p className="mt-2">
             I actively use AI tools in my daily workflow. I love to use Claude
             and ChatGPT for learning and research. For coding I am always
-            testing out the newest tools and am fascinated by the progress of
+            testing out the latest tools and am fascinated by the progress of
             AI.
           </p>
         </div>
