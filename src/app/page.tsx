@@ -160,7 +160,8 @@ export default function Home() {
                 Karlsruhe Institute of Technology
               </a>
             </strong>{" "}
-            (KIT) in Germany. I finished my Bachelor degree with a GPA of 3.7.
+            (KIT) in Germany. I finished my Bachelor studies with a GPA of 3.7
+            (1.7 on the German scale).
             My focus was on Algorithms, Software Engineering, and Linear
             Algebra.
           </Fragment>,
@@ -194,9 +195,10 @@ export default function Home() {
                 Hans-Grüninger-Gymnasium
               </a>
             </strong>{" "}
-            (German high school) with the highest GPA in my class of 4.0. I
-            selected my classes based on my deep interest in the STEM subjects:
-            Computer Science, Mathmatics, Physics, and Chemistry.
+            (German high school) with the highest GPA in my class of 4.0 (1.1 on
+            the German scale). I selected my classes based on my deep interest
+            in the STEM subjects: Computer Science, Mathmatics, Physics, and
+            Chemistry.
           </Fragment>,
           <Fragment key="2">
             I received multiple awards and scholarships: Ferry-Porsche Preis,
@@ -230,7 +232,7 @@ export default function Home() {
               </a>
             </strong>
             . I passed all rounds and was one of the 23 finalists from over 2000
-            participants.
+            competitors.
           </Fragment>,
           <Fragment key="2">
             This victory qualified me to take part in the training for the
@@ -240,8 +242,8 @@ export default function Home() {
                 International Olympiad in Informatics
               </a>
             </strong>
-            . The training was intense and we practiced a lot of algorithmic
-            problems and programming exercises.
+            . The training was intense and we solved a lot of algorithmic
+            problems and learned a lot about data structures.
           </Fragment>,
         ]}
       />
