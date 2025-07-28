@@ -59,7 +59,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center items-center order-1 md:order-2 mb-8 md:mt-0">
           <Image
-            src="/images/lukas-circle-min.png"
+            src="/images/lukas-circle-min-new.png"
             alt="Picture of Lukas Kesch"
             loading="eager"
             width={350}
