@@ -244,7 +244,7 @@ export default function Home() {
             </strong>
             . The training was intense and we solved a lot of algorithmic
             problems and learned a lot about data structures. I really enjoyed
-            it! In the end I prioritized my studies and left the training. This
+            it! In the end I prioritized my studies and left the team. This
             is something I would have done differently if I could do it over
             again. I would have loved to compete in the IOI.
           </Fragment>,
