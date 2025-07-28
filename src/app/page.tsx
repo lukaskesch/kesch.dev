@@ -5,7 +5,7 @@ import EndeavorsCard from "@/components/endeavors-card";
 import { Fragment } from "react";
 const title = "Lukas Kesch | CTO & Entrepreneur";
 const description =
-  "CTO of SchulLV, software engineer, and entrepreneur. Building EduTech and personal development Apps. Specializing in Next.js, Spring Boot, MySQL and cloud infrastructure.";
+  "CTO, CAIO, and one of four Managing Directors of SchulLV, software engineer, and entrepreneur. Building EduTech and personal development Apps. Specializing in Next.js, Spring Boot, MySQL and cloud infrastructure.";
 
 export const metadata: Metadata = {
   title,
