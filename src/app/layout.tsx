@@ -53,12 +53,12 @@ export default function RootLayout({
               <div className="text-2xl font-bold">Kesch.dev</div>
             </Link>
             <ul className="flex flex-row items-center gap-4">
-              <li>
+              {/* <li>
                 <NavLink href="/">Home</NavLink>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <NavLink href="/blog">Blog</NavLink>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <nav>
