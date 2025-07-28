@@ -42,7 +42,7 @@ export default function Home() {
           <h1 className="text-6xl font-bold">Lukas Kesch</h1>
           <p className="mt-2 text-xl italic">CTO and Entrepreneur</p>
           <p className="mt-4">
-            I am the CTO & CAIO of the German EduTech Startup{" "}
+            I am the CTO, CAIO, and one of four Managing Directors of the German EduTech Startup{" "}
             <strong>
               <a href="https://www.schullv.de" target="_blank">
                 SchulLV
