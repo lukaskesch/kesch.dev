@@ -116,7 +116,7 @@ export default function Home() {
             exercise, ...) you want to keep track of.
           </Fragment>,
           <Fragment key="2">
-            I am developing this open source app to track my exercise, coding,
+            I am actively developing this open source app to track my exercise, coding,
             and learning habits. The Web App is built with Next.js, TypeScript,
             Tailwind CSS, and MySQL. I am self-hosting the app on my own server
             with a Cloudflare proxy in front. You can find it on my{" "}
