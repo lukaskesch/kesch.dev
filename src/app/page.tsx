@@ -116,10 +116,10 @@ export default function Home() {
             exercise, ...) you want to keep track of.
           </Fragment>,
           <Fragment key="2">
-            I am actively developing this open source app to track my exercise, coding,
-            and learning habits. The Web App is built with Next.js, TypeScript,
-            Tailwind CSS, and MySQL. I am self-hosting the app on my own server
-            with a Cloudflare proxy in front. You can find it on my{" "}
+            I am actively developing this open source app to track my exercise,
+            coding, and learning habits. The Web App is built with Next.js,
+            TypeScript, Tailwind CSS, and MySQL. I am self-hosting the app on my
+            own server with a Cloudflare proxy in front. You can find it on my{" "}
             <strong>
               <a
                 href="https://github.com/lukaskesch/lifejournal.io"
@@ -143,8 +143,8 @@ export default function Home() {
           <Fragment key="2">
             I am running: Nginx as a reverse proxy with Certbot for my side
             projects, MySQL as my go to database, Docker for my Next.js apps,
-            WireGuard as my VPN with AdGuard as my personal DNS Server, and some cron
-            scripts for backups, monitoring, and maintenance.
+            WireGuard as my VPN with AdGuard as my personal DNS Server, and some
+            cron scripts for backups, monitoring, and maintenance.
           </Fragment>,
         ]}
       />
@@ -244,9 +244,9 @@ export default function Home() {
             </strong>
             . The training was intense and we solved a lot of algorithmic
             problems and learned a lot about data structures. I really enjoyed
-            it! In the end I prioritized my studies and left the team. This
-            is something I would have done differently if I could do it over
-            again. I would have loved to compete in the IOI.
+            it! In the end I prioritized my studies and left the team. This is
+            something I would have done differently if I could do it over again.
+            I would have loved to compete in the IOI.
           </Fragment>,
         ]}
       />
@@ -351,6 +351,37 @@ export default function Home() {
       {/* <h2 className="text-3xl font-bold mt-16">Off topic</h2> */}
 
       {/* TODO: Hobby section: Conference, Triathlon, Skiing, Reading, Family, Friends */}
+
+      <h2 className="text-3xl font-bold mt-16">Out and About</h2>
+
+      <FadeInSection />
+
+      <EndeavorsCard
+        title="Running, Triathlon, Skiing"
+        imagePath="/images/running.jpeg"
+        descriptionParagraphs={[
+          <Fragment key="1">
+            In the beginning of 2024 I started running again. First it was a
+            move to get my cardio back after years "just" pumping iron but
+            soon it became much more than that. In September 2024 I ran my first
+            half marathon and ran many since then. I greatly improved my pace,
+            endurance, and running form. Running has taught me consistently good
+            beats occasionally great. Currently I am training for a full
+            marathon in September 2025.
+          </Fragment>,
+          <Fragment key="2">
+            Gradually I started expending my running with bike and swim sessions. I really enjoy the bike rides and start to get comfortable swimming longer distances in the pool or lake. I have completed a self supported Half Ironman (70.3) and have signed myself up for the Ironman Hamburg 2026. Let's go!
+          </Fragment>,
+          <Fragment key="3">
+            During the winter I love to ski. I started out as a complete
+            beginner three years ago and now I am comfortable skiing all kinds
+            of slopes except for black ones. They tend to make me fall more down
+            than actually skiing. It was really humbling in the beginning to
+            fall every few meters and to always stand up one more time than I
+            fell!
+          </Fragment>,
+        ]}
+      />
 
       <h2 className="text-3xl font-bold mt-16">Reaching out</h2>
       <p className="mt-2">
