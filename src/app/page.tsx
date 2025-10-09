@@ -42,8 +42,8 @@ export default function Home() {
           <h1 className="text-6xl font-bold">Lukas Kesch</h1>
           <p className="mt-2 text-xl italic">CTO and Entrepreneur</p>
           <p className="mt-4">
-            I am the CTO, CAIO, and one of four Managing Directors of the German
-            EduTech Startup{" "}
+            I am the CTO, CAIO, and Managing Directors of the German
+            EdTech Startup{" "}
             <strong>
               <a href="https://www.schullv.de" target="_blank">
                 SchulLV
@@ -53,9 +53,9 @@ export default function Home() {
             my saw and as a testground for new technology.
           </p>
           <p className="mt-2">
-            When I am not in front of my MacBook, I am exercising (Gym,
-            Triathlon, Skiing), reading, or with my girlfriend, friends, or
-            family.
+            When I am not in front of my MacBook, I am exercising (running,
+            cycling, or pumping iron), reading, or with my girlfriend, friends,
+            or family.
           </p>
         </div>
         <div className="flex justify-center items-center order-1 md:order-2 mb-8 md:mt-0">
@@ -167,7 +167,8 @@ export default function Home() {
           </Fragment>,
           <Fragment key="2">
             I developed a lot of book smartness so to speak but most of our
-            classes lacked the practical aspect. In the evenings and weekends, I
+            classes lacked to put the knowledge into practice.
+            In the evenings and weekends, I
             was hacking on my own projects eager to apply my knowledge.
           </Fragment>,
           <Fragment key="3">
@@ -366,10 +367,15 @@ export default function Home() {
             soon it became much more than that. In September 2024 I ran my first
             half marathon and ran many since then. I greatly improved my pace,
             endurance, and running form. Running has taught me consistently good
-            beats occasionally great. In September 2025 I ran my first full marathon.
+            beats occasionally great. In September 2025 I ran my first full
+            marathon.
           </Fragment>,
           <Fragment key="2">
-            Gradually I started expending my running with bike and swim sessions. I really enjoy the bike rides and start to get comfortable swimming longer distances in the pool or lake. I have completed a self supported Half Ironman (70.3) and have signed myself up and started training for the Ironman Hamburg 2026. Let's go!
+            Gradually I started expending my running with bike and swim
+            sessions. I really enjoy the bike rides and start to get comfortable
+            swimming longer distances in the pool or lake. I have completed a
+            self supported Half Ironman (70.3) and have signed myself up and
+            started training for the Ironman Hamburg 2026. Let's go!
           </Fragment>,
           <Fragment key="3">
             During the winter I love to ski. I started out as a complete
@@ -399,5 +405,3 @@ export default function Home() {
     </article>
   );
 }
-
-
