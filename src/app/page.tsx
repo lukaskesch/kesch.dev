@@ -363,7 +363,8 @@ export default function Home() {
         descriptionParagraphs={[
           <Fragment key="1">
             In the beginning of 2024 I started running again. First it was a
-            move to get my cardio back after years of "just" pumping iron but
+            move to get my cardio back after years of &quot;just&quot; pumping
+            iron but
             soon it became much more than that. In September 2024 I ran my first
             half marathon and ran many since then. I greatly improved my pace,
             endurance, and running form. Running has taught me consistently good
@@ -375,7 +376,7 @@ export default function Home() {
             sessions. I really enjoy the bike rides and start to get comfortable
             swimming longer distances in the pool or lake. I have completed a
             self supported Half Ironman (70.3) and have signed myself up and
-            started training for the Ironman Hamburg 2026. Let's go!
+            started training for the Ironman Hamburg 2026. Let&apos;s go!
           </Fragment>,
           <Fragment key="3">
             During the winter I love to ski. I started out as a complete

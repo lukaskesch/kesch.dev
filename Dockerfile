@@ -1,23 +1,32 @@
-# Use an official Node.js runtime as the base image
-FROM node:18-alpine
+FROM node:22-alpine AS base
 
-# Set the working directory in the container
 WORKDIR /app
+ENV NEXT_TELEMETRY_DISABLED=1
 
-# Copy package.json and package-lock.json to the working directory
+FROM base AS deps
+
 COPY package*.json ./
-
-# Install dependencies
 RUN npm ci
 
-# Copy the rest of the application code
-COPY . .
+FROM base AS builder
 
-# Build the Next.js app
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
 RUN npm run build
 
-# Expose the port that Next.js runs on
+FROM base AS runner
+
+ENV NODE_ENV=production
+
+COPY package*.json ./
+COPY --from=deps /app/node_modules ./node_modules
+RUN npm prune --omit=dev
+
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/next.config.mjs ./next.config.mjs
+COPY --from=builder /app/next-sitemap.config.js ./next-sitemap.config.js
+
 EXPOSE 3000
 
-# Start the application
 CMD ["npm", "start"]

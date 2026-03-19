@@ -2,7 +2,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 import GoogleAnalyticsWrapper from "@/components/GoogleAnalyticsWrapper";
 import Link from "next/link";
-import NavLink from "@/components/nav-link";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

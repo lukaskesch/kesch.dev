@@ -1,30 +1,49 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
-export default function GoogleAnalyticsWrapper() {
-  const [hasConsent, setHasConsent] = useState<boolean | null>(null);
-  const [isLocalStorageChecked, setIsLocalStorageChecked] = useState(false);
+const subscribe = (callback: () => void) => {
+  globalThis.addEventListener("storage", callback);
 
-  useEffect(() => {
-    const storedConsent = localStorage.getItem("ga_consent");
-    if (storedConsent) {
-      setHasConsent(storedConsent === "true");
-    }
-    setIsLocalStorageChecked(true);
-  }, []);
-
-  const handleConsent = (consent: boolean) => {
-    localStorage.setItem("ga_consent", String(consent));
-    setHasConsent(consent);
+  return () => {
+    globalThis.removeEventListener("storage", callback);
   };
+};
 
-  if (!isLocalStorageChecked) {
+const getServerSnapshot = () => undefined;
+
+const getConsentSnapshot = () => {
+  const storedConsent = globalThis.localStorage.getItem("ga_consent");
+
+  if (storedConsent === null) {
     return null;
   }
 
-  if (hasConsent === null) {
+  return storedConsent === "true";
+};
+
+export default function GoogleAnalyticsWrapper() {
+  const storedConsent = useSyncExternalStore(
+    subscribe,
+    getConsentSnapshot,
+    getServerSnapshot,
+  );
+  const [hasConsent, setHasConsent] = useState<boolean | null | undefined>(
+    undefined,
+  );
+  const consent = hasConsent ?? storedConsent;
+
+  const handleConsent = (consent: boolean) => {
+    globalThis.localStorage.setItem("ga_consent", String(consent));
+    setHasConsent(consent);
+  };
+
+  if (consent === undefined) {
+    return null;
+  }
+
+  if (consent === null) {
     return (
       <div className="fixed bottom-0 left-0 right-0 bg-white dark:bg-gray-800 p-4 shadow-lg border-t border-gray-200 dark:border-gray-700">
         <div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
@@ -49,7 +68,7 @@ export default function GoogleAnalyticsWrapper() {
     );
   }
 
-  if (hasConsent) {
+  if (consent) {
     return <GoogleAnalytics gaId="G-20FL46R9YH" />;
   }
 
