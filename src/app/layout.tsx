@@ -14,8 +14,6 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -51,14 +49,6 @@ export default function RootLayout({
             <Link href="/">
               <div className="text-2xl font-bold">Kesch.dev</div>
             </Link>
-            <ul className="flex flex-row items-center gap-4">
-              {/* <li>
-                <NavLink href="/">Home</NavLink>
-              </li> */}
-              {/* <li>
-                <NavLink href="/blog">Blog</NavLink>
-              </li> */}
-            </ul>
           </nav>
           <nav>
             <ul className="flex flex-row items-center gap-4">

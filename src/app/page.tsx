@@ -5,9 +5,10 @@ import EndeavorsCard from "@/components/endeavors-card";
 import { Fragment } from "react";
 const title = "Lukas Kesch | CTO & Entrepreneur";
 const description =
-  "CTO, CAIO, and one of four Managing Directors of SchulLV, software engineer, and entrepreneur. Building EduTech and personal development Apps. Specializing in Next.js, Spring Boot, MySQL and cloud infrastructure.";
+  "CTO and one of four Managing Directors of SchulLV, software engineer, and entrepreneur. Building EduTech and personal development Apps. Specializing in Next.js, Spring Boot, MySQL and cloud infrastructure.";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://kesch.dev"),
   title,
   description,
   openGraph: {
@@ -42,7 +43,7 @@ export default function Home() {
           <h1 className="text-6xl font-bold">Lukas Kesch</h1>
           <p className="mt-2 text-xl italic">CTO and Entrepreneur</p>
           <p className="mt-4">
-            I am the CTO, CAIO, and Managing Directors of the German
+            I am the CTO and one of four Managing Directors of the German
             EdTech Startup{" "}
             <strong>
               <a href="https://www.schullv.de" target="_blank">
@@ -86,8 +87,8 @@ export default function Home() {
             </strong>{" "}
             is the leading online learning platform in Germany for students to
             study for their exams and for teachers to create new learning
-            materials. We offer a variety of subjects including Maths, German,
-            English, Biology, and more with original graduation exams for nearly
+            materials. We cover over 20 subjects, including Maths, German,
+            English, Biology, Physics, Chemistry, and more, with original graduation exams for nearly
             all German states and digital schoolbooks.
           </Fragment>,
           <Fragment key="2">
@@ -96,9 +97,6 @@ export default function Home() {
             Next.js (React), Expo (React Native), Spring Boot (Java), MySQL,
             AWS, ...
           </Fragment>,
-          // <Fragment key="3">
-          //   As CAIO
-          // </Fragment>,
         ]}
       />
 
@@ -179,9 +177,6 @@ export default function Home() {
         ]}
       />
 
-      {/* <h3 className="text-2xl font-bold mt-8">Youtube Tinder</h3> */}
-      {/* <h3 className="text-2xl font-bold mt-8">Daily Journal</h3> */}
-
       <EndeavorsCard
         title="High School"
         imagePath="/images/hgg.jpeg"
@@ -198,7 +193,7 @@ export default function Home() {
             </strong>{" "}
             (German high school) with the highest GPA in my class of 4.0 (1.1 on
             the German scale). I selected my classes based on my deep interest
-            in the STEM subjects: Computer Science, Mathmatics, Physics, and
+            in the STEM subjects: Computer Science, Mathematics, Physics, and
             Chemistry.
           </Fragment>,
           <Fragment key="2">
@@ -308,7 +303,6 @@ export default function Home() {
             CloudFront, Route 53, and many more.
           </p>
           <p className="mt-2">
-            {/* Cicrling back on the home metapher, */}
             As a weekend getaway I also like to tinker with my own server. This
             is a great way to keep myself sharp on the basics. I run a SSL
             secured reverse proxy, MySQL database, VPN with a custom DNS Server,
@@ -341,17 +335,7 @@ export default function Home() {
             write and has a vast package ecosystem.
           </p>
         </div>
-
-        {/* <div>
-          <h3 className="text-2xl font-bold mt-8">SEO</h3>
-          <p className="mt-2"></p>
-          <p className="mt-2"></p>
-        </div> */}
       </div>
-
-      {/* <h2 className="text-3xl font-bold mt-16">Off topic</h2> */}
-
-      {/* TODO: Hobby section: Conference, Triathlon, Skiing, Reading, Family, Friends */}
 
       <h2 className="text-3xl font-bold mt-16">Out and About</h2>
 
