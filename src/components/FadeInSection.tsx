@@ -8,7 +8,6 @@ export default function FadeInSection() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            console.log("entry", entry);
             entry.target.classList.remove("opacity-10");
             entry.target.classList.add("opacity-100");
             // Once the animation is done, we can stop observing this element
